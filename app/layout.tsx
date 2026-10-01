@@ -16,5 +16,9 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { colorScheme: 'light', themeColor: '#f6f8f6', width: 'device-width', initialScale: 1, userScalable: true }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="ru" className="bg-background"><head></head><body>{children}{process.env.NODE_ENV === 'production' && <Analytics />}</body></html>
+  return <html lang="ru" className="bg-background">
+    <head>
+      <meta name="yandex-verification" content="ba929e3811487a0c" />
+  </head>
+    <body>{children}{process.env.NODE_ENV === 'production' && <Analytics />}</body></html>
 }
