@@ -18,6 +18,7 @@ export const viewport: Viewport = { colorScheme: 'light', themeColor: '#f6f8f6',
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="ru" className="bg-background">
     <head>
+      <meta name="yandex-verification" content="41b64c185ce85732" />
       <script
   dangerouslySetInnerHTML={{
     __html: `
